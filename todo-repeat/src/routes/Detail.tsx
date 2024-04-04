@@ -27,6 +27,7 @@ function Detail() {
         <>
           <p>{movie.title}</p>
           <img src={movie.medium_cover_image} alt="" />
+          <h1>Test</h1>
         </>
       ) : (
         <p>Loading...</p>
